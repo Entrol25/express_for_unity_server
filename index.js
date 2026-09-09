@@ -15,6 +15,7 @@ app.get('/', (req, res) => {
     {
       countConnect: countConnect,
       ipServer: "127.0.0.1"// ipconfig 
+      //ipServer: "168.222.142.14"// ipconfig 
     }// Ethernet adapter Ethernet: // 2-й средний
   ]))
 
