@@ -4,8 +4,8 @@
   "description": "Express_for_Unity_Server",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node localhost.js",
+    "dev": "nodemon localhost.js"
   },
   "keywords": [
     "express"
