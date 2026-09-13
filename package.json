@@ -4,8 +4,8 @@
   "description": "Express_for_Unity_Server",
   "main": "index.js",
   "scripts": {
-    "startlocalhost": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development nodemon index.js"
   },
   "keywords": [
     "express"
@@ -14,10 +14,12 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "config": "^5.0.1",
     "express": "^5.2.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
+    "cross-env": "^10.1.0",
     "nodemon": "^3.1.14"
   }
 }
